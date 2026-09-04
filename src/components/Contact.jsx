@@ -1,17 +1,15 @@
 import { useState } from 'react'
-import { FiMail, FiGithub, FiLinkedin, FiSend } from 'react-icons/fi'
+import { FiMail, FiGithub, FiSend } from 'react-icons/fi'
 
 // ── PLACEHOLDERS ─────────────────────────────────────────────────────────────
-const EMAIL        = 'you@example.com'
-const GITHUB_URL   = 'https://github.com/yourusername'
-const LINKEDIN_URL = 'https://linkedin.com/in/yourusername'
-const FORMSPREE_ID = null   // e.g. 'xabcdefg' — get one free at formspree.io
+const EMAIL        = 'christianjosephgellasin28@gmail.com'
+const GITHUB_URL   = 'https://github.com/aisatgellasin231740'
+const FORMSPREE_ID = null   // get a free form ID at formspree.io when ready
 // ─────────────────────────────────────────────────────────────────────────────
 
 const SOCIAL_LINKS = [
-  { label: 'Email',    href: `mailto:${EMAIL}`,  icon: FiMail,     display: EMAIL,                        color: '#f87171' },
-  { label: 'GitHub',   href: GITHUB_URL,          icon: FiGithub,   display: 'github.com/yourusername',   color: '#e2e8f0' },
-  { label: 'LinkedIn', href: LINKEDIN_URL,        icon: FiLinkedin, display: 'linkedin.com/in/yourusername', color: '#60a5fa' },
+  { label: 'Email',  href: `mailto:${EMAIL}`, icon: FiMail,   display: EMAIL,                           color: '#f87171' },
+  { label: 'GitHub', href: GITHUB_URL,         icon: FiGithub, display: 'github.com/aisatgellasin231740', color: '#e2e8f0' },
 ]
 
 function ContactForm() {

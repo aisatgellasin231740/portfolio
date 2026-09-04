@@ -1,17 +1,15 @@
-import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
+import { FiGithub, FiMail } from 'react-icons/fi'
 
 // ── PLACEHOLDERS ─────────────────────────────────────────────────────────────
 const NAME         = 'Tiyano'
-const GITHUB_URL   = 'https://github.com/yourusername'
-const LINKEDIN_URL = 'https://linkedin.com/in/yourusername'
-const EMAIL        = 'you@example.com'
+const GITHUB_URL   = 'https://github.com/aisatgellasin231740'
+const EMAIL        = 'christianjosephgellasin28@gmail.com'
 const YEAR         = new Date().getFullYear()
 // ─────────────────────────────────────────────────────────────────────────────
 
 const SOCIAL = [
-  { label: 'GitHub',   href: GITHUB_URL,         icon: FiGithub   },
-  { label: 'LinkedIn', href: LINKEDIN_URL,        icon: FiLinkedin },
-  { label: 'Email',    href: `mailto:${EMAIL}`,   icon: FiMail     },
+  { label: 'GitHub', href: GITHUB_URL,       icon: FiGithub },
+  { label: 'Email',  href: `mailto:${EMAIL}`, icon: FiMail   },
 ]
 
 export default function Footer() {

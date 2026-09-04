@@ -1,28 +1,28 @@
-// ── PLACEHOLDERS — update with your real skills ───────────────────────────────
+// ── Real skills — honest beginner level ──────────────────────────────────────
 const SKILL_GROUPS = [
   {
-    category: 'frontend',
-    icon: '🖥️',
+    category: 'getting started',
+    icon: '🚀',
+    color: '#4ade80',
+    skills: ['HTML5', 'CSS3', 'Git & GitHub', 'Vercel', 'VS Code / Kiro'],
+  },
+  {
+    category: 'currently learning',
+    icon: '📖',
     color: '#60a5fa',
-    skills: ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Tailwind CSS', 'Responsive Design'],
+    skills: ['JavaScript', 'React', 'Tailwind CSS', 'Node.js'],
   },
   {
-    category: 'backend',
-    icon: '⚙️',
+    category: 'exploring next',
+    icon: '🔭',
     color: '#a78bfa',
-    skills: ['Node.js', 'Express', 'REST APIs', 'PostgreSQL', 'MongoDB', 'Prisma', 'JWT / Auth', 'SQL'],
+    skills: ['TypeScript', 'PostgreSQL', 'Express', 'REST APIs'],
   },
   {
-    category: 'tools & devops',
-    icon: '🛠️',
+    category: 'mindset',
+    icon: '🧠',
     color: '#fb923c',
-    skills: ['Git & GitHub', 'Docker', 'Vite', 'Postman', 'Linux / CLI', 'Vercel', 'Railway', 'VS Code'],
-  },
-  {
-    category: 'learning',
-    icon: '📚',
-    color: '#22c55e',
-    skills: ['TypeScript (deepening)', 'Testing (Jest / Vitest)', 'CI/CD', 'AWS Basics', 'System Design'],
+    skills: ['Self-Taught', 'Problem Solving', 'Consistent Learner', 'Open to Feedback'],
   },
 ]
 // ─────────────────────────────────────────────────────────────────────────────
@@ -67,7 +67,7 @@ export default function Skills() {
             Tech Stack
           </h2>
           <p className="text-slate-500 text-sm font-mono">
-            Technologies I use to build full-stack applications.
+            Where I am now and where I'm heading.
           </p>
         </div>
 
